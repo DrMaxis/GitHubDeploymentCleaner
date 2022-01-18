@@ -4,9 +4,9 @@ import "./style.css";
 //See https://stackoverflow.com/a/61272173/6569950 for more info.
 
 // PARAMETERS
-const TOKEN = "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"; // MUST BE `repo_deployments` authorized
-const REPO = "unwantedapp"; // e.g. "monorepo"
-const USER_OR_ORG = "studio-unwanted"; // e.g. "your-name"
+const TOKEN = ""; // MUST BE `repo_deployments` authorized
+const REPO = ""; // e.g. "monorepo"
+const USER_OR_ORG = ""; // e.g. "your-name"
 
 // GLOBAL VARS
 const URL = `https://api.github.com/repos/${USER_OR_ORG}/${REPO}/deployments`;
